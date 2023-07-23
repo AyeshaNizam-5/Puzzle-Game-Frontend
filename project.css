@@ -1,0 +1,163 @@
+#mainArea {
+    width: 450px;
+    height: 900px;
+    background-image: url(./255projectBG.jpg);
+    margin: 0 auto;
+}
+
+#top {
+    margin: 0 auto;
+    text-align: center;
+    font-family: paprika;
+    padding: 30px 10px;
+}
+
+h2 {
+    color: purple;
+}
+
+#PuzzleArea  {
+    margin: 30px auto; 
+    padding:20px 60px;
+}
+
+#PuzzleArea > div  {
+    display: flex;
+}
+
+#PuzzleArea > div > div {
+    width: 50px;
+    height: 50px;
+    margin: 2px 2px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color:white;
+    background-color: white;
+}
+
+#row1 > #col6, #row1 > #col7{
+    background: transparent;
+}
+
+#row2 > #col2, #row2 > #col4, #row2 > #col4, #row2 > #col6, #row2 > #col7{
+    background: transparent;
+}
+
+#row3 > #col2, #row3 > #col4 {
+    background: transparent;
+}
+
+#row4 > #col2, #row4 > #col3, #row4 > #col4, #row4 > #col5, #row4 > #col6, #row4 > #col7{
+    background: transparent;
+}
+
+#Bottom {
+    position: relative;
+}
+
+#bulb {
+    
+    width: 35px;
+    height: 35px;
+    border-radius: 35px;
+    border: 1px solid black;
+    background-color: rgb(155, 52, 93);
+    position: absolute;
+    right: 30px;
+    
+}
+#wordPlace {
+    background-color: palevioletred;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 7px;
+    left: 160px;
+}
+
+#bulb:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+ i.fa-solid  {
+    line-height: 35px;
+    margin: 0 8px;
+ }
+
+ #widget {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(197, 186, 186);
+    border-radius: 250px;
+    margin: 100px auto;
+    position: relative;   
+ }
+
+ #widget > div
+ {
+    width: 60px;
+    height: 60px;
+    color: azure;
+    font-weight: 600;
+    margin: 10px;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    font-family: paprika;
+    user-select: none;
+ }
+
+ #widget > div:hover {
+    cursor: pointer;
+ }
+
+
+#shuffle  {
+    position: absolute;
+    top: 110px;
+    right: 115px;
+    background-color: rgb(197, 186, 186);
+}
+
+
+#letter1 {
+    background-color: rgb(168, 55, 117);
+    position: absolute;
+    top: 20px;
+    right: 110px;
+
+}
+#letter2 {
+    background-color: rgb(168, 55, 117);
+    position: absolute;
+    top:90px;
+    left: 10px;
+}
+#letter3 {
+    background-color: rgb(168, 55, 117);
+    position: absolute;
+    top: 90px;
+    right: 10px;
+}
+#letter4 {
+    background-color: rgb(168, 55, 117);
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+
+}
+#letter5 {
+    background-color: rgb(168, 55, 117);
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+}
+
+
